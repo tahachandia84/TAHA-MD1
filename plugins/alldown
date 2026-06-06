@@ -1,0 +1,60 @@
+import axios from 'axios';
+import fs from 'fs';
+import path from 'path';
+import pkg from 'nayan-media-downloaders';
+const { alldown } = pkg;
+
+export default {
+    command: 'alldown',
+    aliases: ['dl'],
+    category: 'media',
+    description: 'Auto download videos from shared links',
+    usage: 'Just send a supported link',
+
+    async handler(sock, message, args, context) { 
+        const chatId = context.chatId || message.key.remoteJid; 
+        await sock.sendMessage(chatId, { text: '⚠️ This command works automatically when a supported link is sent.' }, { quoted: message }); 
+    }, 
+
+    async handleEvent(sock, message, context) { 
+        try { 
+            const chatId = message.key.remoteJid; 
+            const body = message.message?.conversation || message.message?.extendedTextMessage?.text || ''; 
+            if (!body) return; 
+            
+            const content = body.trim(); 
+            if (!content.startsWith('https://')) return; 
+            
+            await sock.sendMessage(chatId, { react: { text: '🔍', key: message.key } }); 
+            const data = await alldown(content); 
+            
+            if (!data || !data.data || (!data.data.high && !data.data.low)) return; 
+            
+            const downloadUrl = data.data.high || data.data.low; 
+            const title = data.data.title || 'Unknown Title'; 
+            const tempPath = path.join(process.cwd(), 'temp', `auto_${Date.now()}.mp4`); 
+            
+            const response = await axios.get(downloadUrl, { responseType: 'arraybuffer' }); 
+            
+            const dir = path.dirname(tempPath);
+            if (!fs.existsSync(dir)){
+                fs.mkdirSync(dir, { recursive: true });
+            }
+
+            fs.writeFileSync(tempPath, Buffer.from(response.data)); 
+            
+            await sock.sendMessage(chatId, { react: { text: '📥', key: message.key } }); 
+            
+            await sock.sendMessage(chatId, { 
+                video: fs.readFileSync(tempPath), 
+                caption: `🎬 Download Complete\n\n📌 Title: ${title}`
+            }, { quoted: message });
+
+            if (fs.existsSync(tempPath)) { 
+                fs.unlinkSync(tempPath); 
+            } 
+        } catch (err) { 
+            console.error('Auto Downloader Error:', err.message); 
+        } 
+    } 
+};

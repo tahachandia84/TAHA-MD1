@@ -1,0 +1,82 @@
+{
+  "users": [],
+  "groups": [],
+  "antilink": {},
+  "antibadword": {},
+  "warnings": {},
+  "sudo": [
+    "250701619925225@lid"
+  ],
+  "welcome": {
+    "120363418750636721@g.us": {
+      "enabled": true,
+      "message": "Welcome {user} to {group}! 🎉",
+      "channelId": "120363161513685998@newsletter"
+    },
+    "120363426731639620@g.us": {
+      "enabled": true,
+      "message": "Welcome {user} to {group}! 🎉",
+      "channelId": "120363161513685998@newsletter"
+    },
+    "120363425730289878@g.us": {
+      "enabled": true,
+      "message": "Welcome {user} to {group}! 🎉",
+      "channelId": "120363161513685998@newsletter"
+    },
+    "120363406757685481@g.us": {
+      "enabled": true,
+      "message": "Welcome {user} to {group}! 🎉",
+      "channelId": "120363161513685998@newsletter"
+    },
+    "120363426198613657@g.us": {
+      "enabled": true,
+      "message": "Welcome {user} to {group}! 🎉",
+      "channelId": "120363161513685998@newsletter"
+    },
+    "120363410130150829@g.us": {
+      "enabled": true,
+      "message": "Welcome {user} to {group}! 🎉",
+      "channelId": "120363161513685998@newsletter"
+    },
+    "120363409176134869@g.us": {
+      "enabled": true,
+      "message": "Welcome {user} to {group}! 🎉",
+      "channelId": "120363161513685998@newsletter"
+    }
+  },
+  "goodbye": {
+    "120363418750636721@g.us": {
+      "enabled": true,
+      "message": "Goodbye {user} 👋",
+      "channelId": "120363161513685998@newsletter"
+    },
+    "120363426731639620@g.us": {
+      "enabled": true,
+      "message": "Goodbye {user} 👋",
+      "channelId": "120363161513685998@newsletter"
+    },
+    "120363425730289878@g.us": {
+      "enabled": true,
+      "message": "Goodbye {user} 👋",
+      "channelId": "120363161513685998@newsletter"
+    },
+    "120363426198613657@g.us": {
+      "enabled": true,
+      "message": "Goodbye {user} 👋",
+      "channelId": "120363161513685998@newsletter"
+    },
+    "120363410130150829@g.us": {
+      "enabled": true,
+      "message": "Goodbye {user} 👋",
+      "channelId": "120363161513685998@newsletter"
+    }
+  },
+  "chatbot": {},
+  "autoReaction": false,
+  "antitag": {
+    "120363425730289878@g.us": {
+      "enabled": true,
+      "action": "delete"
+    }
+  }
+}
