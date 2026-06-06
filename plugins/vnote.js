@@ -2,11 +2,11 @@
  *                                                                           *
  *                     Developed By Emon Hawladar                                *
  *                                                                           *
- *  🌐  GitHub   : https://github.com/emonbhaiwpbot                         *
- *  ▶️  YouTube  : https://youtube.com/@emonbhaiwpbot                       *
+ *  🌐  GitHub   : https://github.com/sharifvau                         *
+ *  ▶️  YouTube  : https://youtube.com/@sharifvau                       *
  *  💬  WhatsApp : https://whatsapp.com/channel/0029VbClzp2Fcow6Q6KCqu16     *
  *                                                                           *
- *    © 2026 emonbhaiwpbot. All rights reserved.                            *
+ *    © 2026 sharifvau. All rights reserved.                            *
  *                                                                           *
  *****************************************************************************/
 import { downloadContentFromMessage } from '@whiskeysockets/baileys';

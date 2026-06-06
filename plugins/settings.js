@@ -90,7 +90,7 @@ export default {
                     externalAdReply: {
                         title: "SYSTEM SETTINGS PANEL",
                         body: "Configuration Status",
-                        thumbnailUrl: "https://github.com/emonbhaiwpbot.png",
+                        thumbnailUrl: "https://github.com/sharifvau.png",
                         mediaType: 1,
                         renderLargerThumbnail: true
                     }

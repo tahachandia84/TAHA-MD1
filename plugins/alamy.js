@@ -2,11 +2,11 @@
  *                                                                           *
  *                     Developed By Emon Hawladar                                *
  *                                                                           *
- *  🌐  GitHub   : https://github.com/emonbhaiwpbot                         *
- *  ▶️  YouTube  : https://youtube.com/@emonbhaiwpbot                       *
+ *  🌐  GitHub   : https://github.com/sharifvau                         *
+ *  ▶️  YouTube  : https://youtube.com/@sharifvau                       *
  *  💬  WhatsApp : https://whatsapp.com/channel/0029VbClzp2Fcow6Q6KCqu16     *
  *                                                                           *
- *    © 2026 emonbhaiwpbot. All rights reserved.                            *
+ *    © 2026 sharifvau. All rights reserved.                            *
  *                                                                           *
  *    Description: This file is part of the EMON-MD Project.                 *
  *                 Unauthorized copying or distribution is prohibited.       *
@@ -62,11 +62,11 @@ export default {
  *                                                                           *
  *                     Developed By Emon Hawladar                                *
  *                                                                           *
- *  🌐  GitHub   : https://github.com/emonbhaiwpbot                         *
- *  ▶️  YouTube  : https://youtube.com/@emonbhaiwpbot                       *
+ *  🌐  GitHub   : https://github.com/sharifvau                         *
+ *  ▶️  YouTube  : https://youtube.com/@sharifvau                       *
  *  💬  WhatsApp : https://whatsapp.com/channel/0029VbClzp2Fcow6Q6KCqu16     *
  *                                                                           *
- *    © 2026 emonbhaiwpbot. All rights reserved.                            *
+ *    © 2026 sharifvau. All rights reserved.                            *
  *                                                                           *
  *    Description: This file is part of the EMON-MD Project.                 *
  *                 Unauthorized copying or distribution is prohibited.       *

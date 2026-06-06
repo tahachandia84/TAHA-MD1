@@ -34,13 +34,13 @@
     "nodejs-bot",
     "javascript-bot"
   ],
-  "homepage": "https://github.com/emonbhaiwpbot/EMON-MD",
+  "homepage": "https://github.com/sharifvau/EMON-MD",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emonbhaiwpbot/EMON-MD.git"
+    "url": "git+https://github.com/sharifvau/EMON-MD.git"
   },
   "bugs": {
-    "url": "https://github.com/emonbhaiwpbot/EMON-MD/issues"
+    "url": "https://github.com/sharifvau/EMON-MD/issues"
   },
   "license": "MIT",
   "author": "Emon Hawladar",

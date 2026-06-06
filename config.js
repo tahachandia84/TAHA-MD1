@@ -5,7 +5,7 @@ const config = {
     botName: process.env.BOT_NAME || 'EMON-MD',
     botOwner: process.env.BOT_OWNER || 'Emon Hawladar',
     ownerNumber: process.env.OWNER_NUMBER || '8801309991724',
-    author: process.env.AUTHOR || 'emonbhaiwpbot',
+    author: process.env.AUTHOR || 'sharifvau',
     packname: process.env.PACKNAME || 'EMON-MD',
     description: process.env.DESCRIPTION || 'High performance multi-device WhatsApp bot',
     version: '6.0.0',
@@ -16,8 +16,8 @@ const config = {
     timeZone: process.env.TIMEZONE || 'Asia/Dhaka',
     // Links
     channelLink: process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029VbClzp2Fcow6Q6KCqu16',
-    updateZipUrl: process.env.UPDATE_URL || 'https://github.com/emonbhaiwpbot/Emon-Md/archive/refs/heads/main.zip',
-    ytChannel: process.env.YT_CHANNEL || 'emonbhaiwpbot',
+    updateZipUrl: process.env.UPDATE_URL || 'https://github.com/sharifvau/Emon-Md/archive/refs/heads/main.zip',
+    ytChannel: process.env.YT_CHANNEL || 'sharifvau',
     // Session
     sessionId: process.env.SESSION_ID || '',
     pairingNumber: process.env.PAIRING_NUMBER || '601166194923',

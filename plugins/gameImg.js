@@ -8,7 +8,7 @@ export default {
     async handler(sock, message, args, context) {
         const chatId = context.chatId || message.key.remoteJid;
         try {
-            const res = await axios.get('https://raw.githubusercontent.com/emonbhaiwpbot/Database/main/images/game.json');
+            const res = await axios.get('https://raw.githubusercontent.com/sharifvau/Database/main/images/game.json');
             if (!res.data || !Array.isArray(res.data) || res.data.length === 0) {
                 return await sock.sendMessage(chatId, { text: '❌ Failed to fetch image.' }, { quoted: message });
             }

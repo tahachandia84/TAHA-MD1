@@ -8,11 +8,11 @@
 
 <br/>
 
-[![Version](https://img.shields.io/badge/Version-6.0.0-blue?style=for-the-badge&logo=github)](https://github.com/emonbhaiwpbot/EMON-MD)
+[![Version](https://img.shields.io/badge/Version-6.0.0-blue?style=for-the-badge&logo=github)](https://github.com/sharifvau/EMON-MD)
 [![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
 [![WhatsApp](https://img.shields.io/badge/Baileys-7.x-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://github.com/WhiskeySockets/Baileys)
-[![Stars](https://img.shields.io/github/stars/emonbhaiwpbot/EMON-MD?style=for-the-badge&logo=starship&color=gold)](https://github.com/emonbhaiwpbot/EMON-MD/stargazers)
-[![Forks](https://img.shields.io/github/forks/emonbhaiwpbot/EMON-MD?style=for-the-badge&logo=git&color=orange)](https://github.com/emonbhaiwpbot/EMON-MD/network/members)
+[![Stars](https://img.shields.io/github/stars/sharifvau/EMON-MD?style=for-the-badge&logo=starship&color=gold)](https://github.com/sharifvau/EMON-MD/stargazers)
+[![Forks](https://img.shields.io/github/forks/sharifvau/EMON-MD?style=for-the-badge&logo=git&color=orange)](https://github.com/sharifvau/EMON-MD/network/members)
 
 <br/>
 
@@ -112,7 +112,7 @@
 ## ⚡ Quick Start
 
 ```bash
-git clone https://github.com/emonbhaiwpbot/EMON-MD.git
+git clone https://github.com/sharifvau/EMON-MD.git
 cd EMON-MD
 npm install
 cp sample.env .env
@@ -150,7 +150,7 @@ npm start
 ### Step 3 — Add to `.env`
 
 ```env
-SESSION_ID=emonbhaiwpbot/EMON-MD_xxxxxxxxxxxxxxxxxxxxxxxx
+SESSION_ID=sharifvau/EMON-MD_xxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 ### Alternative — Pairing via terminal
@@ -176,7 +176,7 @@ cp sample.env .env
 
 ```env
 # ── REQUIRED (choose one) ────────────────────────────────────
-SESSION_ID=emonbhaiwpbot/EMON-MD_your_gist_id_here
+SESSION_ID=sharifvau/EMON-MD_your_gist_id_here
 # OR
 PAIRING_NUMBER=8801309991724
 
@@ -185,7 +185,7 @@ OWNER_NUMBER=8801309991724        # No + sign
 
 # ── BOT IDENTITY ─────────────────────────────────────────────
 BOT_NAME=EMON-MD-PRO
-BOT_OWNER=emonbhaiwpbot
+BOT_OWNER=sharifvau
 PACKNAME=EMON-MD
 
 # ── BEHAVIOUR ────────────────────────────────────────────────
@@ -216,7 +216,7 @@ DB_URL=                          # SQLite: ./data/baileys.db
 
 ```bash
 # 1. Clone
-git clone https://github.com/emonbhaiwpbot/EMON-MD.git
+git clone https://github.com/sharifvau/EMON-MD.git
 cd EMON-MD
 
 # 2. Install dependencies
@@ -233,7 +233,7 @@ npm start
 ### One-Line VPS Installer
 
 ```bash
-sudo bash <(curl -fsSL https://raw.githubusercontent.com/emonbhaiwpbot/EMON-MD/main/lib/install.sh)
+sudo bash <(curl -fsSL https://raw.githubusercontent.com/sharifvau/EMON-MD/main/lib/install.sh)
 ```
 > [!IMPORTANT]
 > This automatically installs Node.js 20, ffmpeg, libvips, libwebp, PM2, clones the repo, builds it, and sets up data files.
@@ -265,7 +265,7 @@ apt update && apt upgrade -y
 apt install -y git ffmpeg build-essential libvips-dev webp nodejs npm curl
 
 # Clone and setup
-git clone https://github.com/emonbhaiwpbot/EMON-MD.git
+git clone https://github.com/sharifvau/EMON-MD.git
 cd EMON-MD
 npm install
 cp sample.env .env && nano .env
@@ -295,7 +295,7 @@ npm start
 
 **One-line install (recommended):**
 ```bash
-sudo bash <(curl -fsSL https://raw.githubusercontent.com/emonbhaiwpbot/EMON-MD/main/lib/install.sh)
+sudo bash <(curl -fsSL https://raw.githubusercontent.com/sharifvau/EMON-MD/main/lib/install.sh)
 ```
 
 **Manual:**
@@ -303,7 +303,7 @@ sudo bash <(curl -fsSL https://raw.githubusercontent.com/emonbhaiwpbot/EMON-MD/m
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs git ffmpeg libvips-dev libwebp-dev build-essential
 
-git clone https://github.com/emonbhaiwpbot/EMON-MD.git
+git clone https://github.com/sharifvau/EMON-MD.git
 cd EMON-MD
 npm install
 cp sample.env .env && nano .env
@@ -335,7 +335,7 @@ sudo apt update
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs git ffmpeg libvips-dev libwebp-dev build-essential
 
-git clone https://github.com/emonbhaiwpbot/EMON-MD.git
+git clone https://github.com/sharifvau/EMON-MD.git
 cd EMON-MD
 npm install
 cp sample.env .env && nano .env
@@ -351,12 +351,12 @@ npm start
 > The repo includes pre-configured `.replit` and `replit.nix`.
 
 1. Go to [replit.com](https://replit.com) → **Create Repl** → **Import from GitHub**
-2. Paste: `https://github.com/emonbhaiwpbot/EMON-MD`
+2. Paste: `https://github.com/sharifvau/EMON-MD`
 3. Open **Secrets** tab (🔒) and add:
 
    | Key | Value |
    |---|---|
-   | `SESSION_ID` | `emonbhaiwpbot/EMON-MD_your_gist_id` |
+   | `SESSION_ID` | `sharifvau/EMON-MD_your_gist_id` |
    | `OWNER_NUMBER` | `8801309991724` |
 
 4. Click **Run**
@@ -380,7 +380,7 @@ npm start
 
 **One-line Deployer:**
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/emonbhaiwpbot/EMON-MD/main/lib/heroku.sh)
+bash <(curl -s https://raw.githubusercontent.com/sharifvau/EMON-MD/main/lib/heroku.sh)
 ```
 **Manual:**
 ```bash
@@ -388,7 +388,7 @@ heroku login
 heroku create your-bot-name
 heroku stack:set container
 
-heroku config:set SESSION_ID=emonbhaiwpbot/EMON-MD_your_gist_id
+heroku config:set SESSION_ID=sharifvau/EMON-MD_your_gist_id
 heroku config:set OWNER_NUMBER=8801309991724
 heroku config:set MONGO_URL=your_mongodb_url   # Recommended
 
@@ -434,7 +434,7 @@ heroku logs --tail
 
    | Key | Value |
    |---|---|
-   | `SESSION_ID` | `emonbhaiwpbot/EMON-MD_your_gist_id` |
+   | `SESSION_ID` | `sharifvau/EMON-MD_your_gist_id` |
    | `OWNER_NUMBER` | `8801309991724` |
 
 5. Railway auto-builds via `Dockerfile` and deploys
@@ -463,7 +463,7 @@ heroku logs --tail
 
 **One-line Deployer:**
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/emonbhaiwpbot/EMON-MD/main/lib/fly.sh)
+bash <(curl -s https://raw.githubusercontent.com/sharifvau/EMON-MD/main/lib/fly.sh)
 ```
 **Manual:**
 ```bash
@@ -471,7 +471,7 @@ curl -L https://fly.io/install.sh | sh
 fly auth login
 
 fly launch --no-deploy
-fly secrets set SESSION_ID=emonbhaiwpbot/EMON-MD_your_gist_id
+fly secrets set SESSION_ID=sharifvau/EMON-MD_your_gist_id
 fly secrets set OWNER_NUMBER=8801309991724
 fly deploy
 
@@ -494,7 +494,7 @@ docker build -t emon-md .
 
 # Run
 docker run -d \
-  -e SESSION_ID=emonbhaiwpbot/EMON-MD_your_gist_id \
+  -e SESSION_ID=sharifvau/EMON-MD_your_gist_id \
   -e OWNER_NUMBER=8801309991724 \
   -p 5000:5000 \
   --name emon-md \
@@ -649,7 +649,7 @@ export default {
 ### Bot not connecting
 
 > [!IMPORTANT]
-> - Verify `SESSION_ID` starts with `emonbhaiwpbot/EMON-MD_`
+> - Verify `SESSION_ID` starts with `sharifvau/EMON-MD_`
 > - If using `PAIRING_NUMBER`, link within 60 seconds of the code appearing
 > - Reset session and reconnect: `npm run reset-session && npm start`
 
@@ -731,7 +731,7 @@ npm run test:watch      # Watch mode during development
 
 [![Telegram](https://img.shields.io/badge/Telegram-FF0000?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Global_TechInfo)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp_Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029VbClzp2Fcow6Q6KCqu16)
-[![GitHub Issues](https://img.shields.io/badge/GitHub_Issues-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/emonbhaiwpbot/EMON-MD/issues)
+[![GitHub Issues](https://img.shields.io/badge/GitHub_Issues-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sharifvau/EMON-MD/issues)
 
 </div>
 
@@ -746,7 +746,7 @@ npm run test:watch      # Watch mode during development
 
 ## 📄 License
 
-[MIT License](LICENSE) · Made with ❤️ by **Emon Hawladar** · [emonbhaiwpbot](https://github.com/emonbhaiwpbot)
+[MIT License](LICENSE) · Made with ❤️ by **Emon Hawladar** · [sharifvau](https://github.com/sharifvau)
 
 <div align="center">
 

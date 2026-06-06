@@ -27,7 +27,7 @@ echo "✅ Node.js $(node -v) installed"
 
 # Clone repo
 echo "📥 Cloning EMON-MD..."
-git clone https://github.com/emonbhaiwpbot/EMON-MD /root/EMON-MD
+git clone https://github.com/sharifvau/EMON-MD /root/EMON-MD
 cd /root/EMON-MD
 
 # Install npm packages

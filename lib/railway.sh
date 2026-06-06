@@ -1,6 +1,6 @@
 #!/bin/bash
 # EMON-MD Railway One-Click Deployer
-# Usage: bash <(curl -s https://raw.githubusercontent.com/emonbhaiwpbot/EMON-MD/main/lib/railway.sh)
+# Usage: bash <(curl -s https://raw.githubusercontent.com/sharifvau/EMON-MD/main/lib/railway.sh)
 
 set -e
 
@@ -14,7 +14,7 @@ NC='\033[0m'
 echo -e "${CYAN}"
 echo "╔═══════════════════════════════════════╗"
 echo "║       EMON-MD Railway Deployer        ║"
-echo "║          by emonbhaiwpbot            ║"
+echo "║          by sharifvau            ║"
 echo "╚═══════════════════════════════════════╝"
 echo -e "${NC}"
 
@@ -35,7 +35,7 @@ echo ""
 echo -e "${BOLD}📋 Enter your bot details:${NC}"
 echo ""
 
-read -p "$(echo -e ${CYAN}Session ID (emonbhaiwpbot/EMON-MD_xxxxx): ${NC})" SESSION_ID
+read -p "$(echo -e ${CYAN}Session ID (sharifvau/EMON-MD_xxxxx): ${NC})" SESSION_ID
 if [ -z "$SESSION_ID" ]; then
     echo -e "${RED}❌ Session ID is required!${NC}"
     exit 1
@@ -59,7 +59,7 @@ echo ""
 # Clone if not in repo
 if [ ! -f "railway.json" ]; then
     echo -e "${YELLOW}📦 Cloning EMON-MD repo...${NC}"
-    git clone https://github.com/emonbhaiwpbot/EMON-MD emon-md-deploy
+    git clone https://github.com/sharifvau/EMON-MD emon-md-deploy
     cd emon-md-deploy
 fi
 

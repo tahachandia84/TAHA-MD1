@@ -2,7 +2,7 @@
   "name": "emon-md",
   "description": "High performance multi-device WhatsApp bot",
   "keywords": ["whatsapp-bot", "baileys", "emon-md"],
-  "repository": "https://github.com/emonbhaiwpbot/EMON-MD",
+  "repository": "https://github.com/sharifvau/EMON-MD",
   "stack": "container",
   "env": {
     "SESSION_ID": {

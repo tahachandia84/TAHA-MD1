@@ -1,6 +1,6 @@
 #!/bin/bash
 # EMON-MD Heroku One-Click Deployer
-# Usage: bash <(curl -s https://raw.githubusercontent.com/emonbhaiwpbot/EMON-MD/main/lib/heroku.sh)
+# Usage: bash <(curl -s https://raw.githubusercontent.com/sharifvau/EMON-MD/main/lib/heroku.sh)
 
 set -e
 
@@ -14,7 +14,7 @@ NC='\033[0m'
 echo -e "${CYAN}"
 echo "╔═══════════════════════════════════════╗"
 echo "║       EMON-MD Heroku Deployer         ║"
-echo "║         by emonbhaiwpbot             ║"
+echo "║         by sharifvau             ║"
 echo "╚═══════════════════════════════════════╝"
 echo -e "${NC}"
 
@@ -42,7 +42,7 @@ read -p "$(echo -e ${CYAN}App name (e.g. my-emon-md): ${NC})" APP_NAME
 APP_NAME=${APP_NAME:-emon-md-bot}
 
 # Session ID
-read -p "$(echo -e ${CYAN}Session ID (emonbhaiwpbot/EMON-MD_xxxxx): ${NC})" SESSION_ID
+read -p "$(echo -e ${CYAN}Session ID (sharifvau/EMON-MD_xxxxx): ${NC})" SESSION_ID
 if [ -z "$SESSION_ID" ]; then
     echo -e "${RED}❌ Session ID is required!${NC}"
     exit 1
@@ -70,7 +70,7 @@ echo ""
 # Clone if not in repo
 if [ ! -f "heroku.yml" ]; then
     echo -e "${YELLOW}📦 Cloning EMON-MD repo...${NC}"
-    git clone https://github.com/emonbhaiwpbot/EMON-MD emon-md-deploy
+    git clone https://github.com/sharifvau/EMON-MD emon-md-deploy
     cd emon-md-deploy
 fi
 
