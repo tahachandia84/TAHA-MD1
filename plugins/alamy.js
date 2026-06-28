@@ -1,14 +1,14 @@
 /*****************************************************************************
  *                                                                           *
- *                     Developed By Emon Hawladar                                *
+ *                     Developed By taha khan                                *
  *                                                                           *
- *  🌐  GitHub   : https://github.com/sharifvau                         *
- *  ▶️  YouTube  : https://youtube.com/@sharifvau                       *
- *  💬  WhatsApp : https://whatsapp.com/channel/0029VbClzp2Fcow6Q6KCqu16     *
+ *  🌐  GitHub   : https://github.com/taha                         *
+ *  ▶️  YouTube  : https://youtube.com/@tahachandia                       *
+ *  💬  WhatsApp : https://whatsapp.com/channel/0029Vb7e7Xd0wajm0hUt2b1R     *
  *                                                                           *
- *    © 2026 sharifvau. All rights reserved.                            *
+ *    © 2026 TAHA-khan. All rights reserved.                            *
  *                                                                           *
- *    Description: This file is part of the EMON-MD Project.                 *
+ *    Description: This file is part of the TAHA-MD Project.                 *
  *                 Unauthorized copying or distribution is prohibited.       *
  *                                                                           *
  *****************************************************************************/
@@ -60,15 +60,15 @@ export default {
 };
 /*****************************************************************************
  *                                                                           *
- *                     Developed By Emon Hawladar                                *
+ *                     Developed By TAHA KHAN                               *
  *                                                                           *
- *  🌐  GitHub   : https://github.com/sharifvau                         *
- *  ▶️  YouTube  : https://youtube.com/@sharifvau                       *
- *  💬  WhatsApp : https://whatsapp.com/channel/0029VbClzp2Fcow6Q6KCqu16     *
+ *  🌐  GitHub   : https://github.com/TAHA                         *
+ *  ▶️  YouTube  : https://youtube.com/@TAHACHANDIA                       *
+ *  💬  WhatsApp : https://whatsapp.com/channel/0029Vb7e7Xd0wajm0hUt2b1R     *
  *                                                                           *
- *    © 2026 sharifvau. All rights reserved.                            *
+ *    © 2026 TAHA KHAN. All rights reserved.                            *
  *                                                                           *
- *    Description: This file is part of the EMON-MD Project.                 *
+ *    Description: This file is part of the TAHA-MD Project.                 *
  *                 Unauthorized copying or distribution is prohibited.       *
  *                                                                           *
  *****************************************************************************/
