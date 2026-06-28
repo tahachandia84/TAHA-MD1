@@ -246,7 +246,7 @@ You:
                 .replace(/cries/g, '😢')
                 .replace(/thinks/g, '🤔')
                 .replace(/sleeps/g, '😴')
-                .replace(/google/gi, 'EMON BOT')
+                .replace(/google/gi, 'TAHA BOT')
                 .replace(/a large language model/gi, 'just a person')
                 .replace(/Remember:.*$/g, '')
                 .replace(/IMPORTANT:.*$/g, '')
