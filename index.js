@@ -292,8 +292,8 @@ async function startQasimDev() {
                                 forwardingScore: 1,
                                 isForwarded: true,
                                 forwardedNewsletterMessageInfo: {
-                                    newsletterJid: '120363424091905615@newsletter',
-                                    newsletterName: 'EMON CHANNEL',
+                                    newsletterJid: '120363409838427367@newsletter',
+                                    newsletterName: 'TAHA-MD BOT',
                                     serverMessageId: -1
                                 }
                             }
@@ -447,8 +447,8 @@ async function startQasimDev() {
                             forwardingScore: 1,
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
-                                newsletterJid: '120363424091905615@newsletter',
-                                newsletterName: 'EMON CHANNEL',
+                                newsletterJid: '120363409838427367@newsletter',
+                                newsletterName: 'TAHA-MD BOT',
                                 serverMessageId: -1
                             }
                         }
@@ -462,7 +462,7 @@ async function startQasimDev() {
                     owner = JSON.parse(fs.readFileSync('./data/owner.json', 'utf-8'));
                 }
                 catch (_e) { }
-                printLog('info', `[ ${config.botName || 'EMON-MD'} ]`);
+                printLog('info', `[ ${config.botName || 'TAHA-MD'} ]`);
                 printLog('info', `WA NUMBER  : ${owner[0] || config.ownerNumber || ''}`);
                 printLog('success', `Bot Connected Successfully!`);
                 printLog('info', `Plugins   : ${commandHandler.commands.size}`);
@@ -516,7 +516,7 @@ async function startQasimDev() {
 async function main() {
     await compileAll();
     await commandHandler.loadCommands();
-    printLog('info', 'Starting EMON MD BOT...');
+    printLog('info', 'Starting TAHA MD BOT...');
     await initializeSession();
     await delay(3000);
     startQasimDev().catch((error) => {
