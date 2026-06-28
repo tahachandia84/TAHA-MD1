@@ -1,15 +1,15 @@
 import config from '../config.js';
 /*****************************************************************************
  *                                                                           *
- *                     Developed By Emon Hawladar                                *
+ *                     Developed By TAHA KHAN                               *
  *                                                                           *
- *  🌐  GitHub   : https://github.com/sharifvau                         *
- *  ▶️  YouTube  : https://youtube.com/@sharifvau                       *
- *  💬  WhatsApp : https://whatsapp.com/channel/0029VbClzp2Fcow6Q6KCqu16     *
+ *  🌐  GitHub   : https://github.com/papa taha                        *
+ *  ▶️  YouTube  : https://youtube.com/@tahachandia                       *
+ *  💬  WhatsApp : https://whatsapp.com/channel/0029Vb7e7Xd0wajm0hUt2b1R     *
  *                                                                           *
- *    © 2026 sharifvau. All rights reserved.                            *
+ *    © 2026 papa taha. All rights reserved.                            *
  *                                                                           *
- *    Description: This file is part of the EMON-MD Project.                 *
+ *    Description: This file is part of the TAHA-MD Project.                 *
  *                 Unauthorized copying or distribution is prohibited.       *
  *                                                                           *
  *****************************************************************************/
@@ -29,7 +29,7 @@ function formatTime() {
 const menuStyles = [
     {
         render({ _title, info, categories, prefix }) {
-            let t = `╭━━『 *EMON MENU* 』━⬣\n`;
+            let t = `╭━━『 *TAHA MENU* 』━⬣\n`;
             t += `┃ ✨ *Bot: ${info.bot}*\n`;
             t += `┃ 🔧 *Prefix: ${info.prefix}*\n`;
             t += `┃ 📦 *Plugin: ${info.total}*\n`;
@@ -46,7 +46,7 @@ const menuStyles = [
     },
     {
         render({ _title, info, categories, prefix }) {
-            let t = `◈╭─❍「 *EMON MENU* 」❍\n`;
+            let t = `◈╭─❍「 *TAHA MENU* 」❍\n`;
             t += `◈├• 🌟 *Bot: ${info.bot}*\n`;
             t += `◈├• ⚙️ *Prefix: ${info.prefix}*\n`;
             t += `◈├• 🍫 *Plugins: ${info.total}*\n`;
@@ -63,7 +63,7 @@ const menuStyles = [
     },
     {
         render({ _title, info, categories, prefix }) {
-            let t = `┏━━━━ *EMON MENU* ━━━┓\n`;
+            let t = `┏━━━━ *TAHA MENU* ━━━┓\n`;
             t += `┃• *Bot : ${info.bot}*\n`;
             t += `┃• *Prefixes : ${info.prefix}*\n`;
             t += `┃• *Plugins : ${info.total}*\n`;
@@ -80,7 +80,7 @@ const menuStyles = [
     },
     {
         render({ _title, info, categories, prefix }) {
-            let t = `✦═══ *EMON MENU* ═══✦\n`;
+            let t = `✦═══ *TAHA MENU* ═══✦\n`;
             t += `║➩ *Bot: ${info.bot}*\n`;
             t += `║➩ *Prefixes: ${info.prefix}*\n`;
             t += `║➩ *Plugins: ${info.total}*\n`;
@@ -97,7 +97,7 @@ const menuStyles = [
     },
     {
         render({ _title, info, categories, prefix }) {
-            let t = `❀━━━ *EMON MENU* ━━━❀\n`;
+            let t = `❀━━━ *TAHA MENU* ━━━❀\n`;
             t += `┃☞ *Bot: ${info.bot}*\n`;
             t += `┃☞ *Prefixes: ${info.prefix}*\n`;
             t += `┃☞ *Plugins: ${info.total}*\n`;
@@ -114,7 +114,7 @@ const menuStyles = [
     },
     {
         render({ _title, info, categories, prefix }) {
-            let t = `◆━━━ *EMON MENU* ━━━◆\n`;
+            let t = `◆━━━ *TAHA MENU* ━━━◆\n`;
             t += `┃ ¤ *Bot: ${info.bot}*\n`;
             t += `┃ ¤ *Prefixes: ${info.prefix}*\n`;
             t += `┃ ¤ *Plugins: ${info.total}*\n`;
@@ -131,7 +131,7 @@ const menuStyles = [
     },
     {
         render({ _title, info, categories, prefix }) {
-            let t = `╭───⬣ *EMON MENU* ──⬣\n`;
+            let t = `╭───⬣ *TAHA MENU* ──⬣\n`;
             t += ` | ● *Bot: ${info.bot}*\n`;
             t += ` | ● *Prefixes: ${info.prefix}*\n`;
             t += ` | ● *Plugins: ${info.total}*\n`;
@@ -217,15 +217,15 @@ export default {
 };
 /*****************************************************************************
  *                                                                           *
- *                     Developed By Emon Hawladar                                *
+ *                     Developed By TAHA KHAN                               *
  *                                                                           *
- *  🌐  GitHub   : https://github.com/sharifvau                         *
- *  ▶️  YouTube  : https://youtube.com/@sharifvau                       *
- *  💬  WhatsApp : https://whatsapp.com/channel/0029VbClzp2Fcow6Q6KCqu16     *
+ *  🌐  GitHub   : https://github.com/PAPA TAHA                         *
+ *  ▶️  YouTube  : https://youtube.com/@tahachandia                       *
+ *  💬  WhatsApp : https://whatsapp.com/channel/0029Vb7e7Xd0wajm0hUt2b1R     *
  *                                                                           *
- *    © 2026 sharifvau. All rights reserved.                            *
+ *    © 2026 TAHA-KHAN. All rights reserved.                            *
  *                                                                           *
- *    Description: This file is part of the EMON-MD Project.                 *
+ *    Description: This file is part of the TAHA-MD Project.                 *
  *                 Unauthorized copying or distribution is prohibited.       *
  *                                                                           *
  *****************************************************************************/
