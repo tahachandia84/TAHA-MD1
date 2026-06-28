@@ -2,25 +2,25 @@ import 'dotenv/config';
 const _prefixes = process.env.PREFIXES ? process.env.PREFIXES.split(',') : ['.', '!', '/', '#'];
 const config = {
     // Bot Identity
-    botName: process.env.BOT_NAME || 'EMON-MD',
-    botOwner: process.env.BOT_OWNER || 'Emon Hawladar',
-    ownerNumber: process.env.OWNER_NUMBER || '8801309991724',
+    botName: process.env.BOT_NAME || 'TAHA-MD',
+    botOwner: process.env.BOT_OWNER || 'TAHA BABU',
+    ownerNumber: process.env.OWNER_NUMBER || '923474771404',
     author: process.env.AUTHOR || 'sharifvau',
-    packname: process.env.PACKNAME || 'EMON-MD',
+    packname: process.env.PACKNAME || 'TAHA-MD',
     description: process.env.DESCRIPTION || 'High performance multi-device WhatsApp bot',
     version: '6.0.0',
     // Bot Config
     prefixes: _prefixes,
     prefix: _prefixes[0],
     commandMode: process.env.COMMAND_MODE || 'public',
-    timeZone: process.env.TIMEZONE || 'Asia/Dhaka',
+    timeZone: process.env.TIMEZONE || 'Asia/Karachi',
     // Links
-    channelLink: process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029VbClzp2Fcow6Q6KCqu16',
-    updateZipUrl: process.env.UPDATE_URL || 'https://github.com/sharifvau/Emon-Md/archive/refs/heads/main.zip',
-    ytChannel: process.env.YT_CHANNEL || 'sharifvau',
+    channelLink: process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029Vb7e7Xd0wajm0hUt2b1R',
+    updateZipUrl: process.env.UPDATE_URL || 'https://whatsapp.com/channel/0029Vb7e7Xd0wajm0hUt2b1R',
+    ytChannel: process.env.YT_CHANNEL || '@tahachandia',
     // Session
     sessionId: process.env.SESSION_ID || '',
-    pairingNumber: process.env.PAIRING_NUMBER || '601166194923',
+    pairingNumber: process.env.PAIRING_NUMBER || '923291489055',
     // Performance
     port: Number(process.env.PORT) || 21939,
     maxStoreMessages: Number(process.env.MAX_STORE_MESSAGES) || 20,
