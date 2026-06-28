@@ -1,8 +1,8 @@
 {
   "name": "emon-md",
   "description": "High performance multi-device WhatsApp bot",
-  "keywords": ["whatsapp-bot", "baileys", "emon-md"],
-  "repository": "https://github.com/sharifvau/EMON-MD",
+  "keywords": ["whatsapp-bot", "baileys", "taha-md"],
+  "repository": "https://github.com/tahachandia/TAHA-MD1",
   "stack": "container",
   "env": {
     "SESSION_ID": {
@@ -13,7 +13,7 @@
     "OWNER_NUMBER": {
       "description": "Your WhatsApp number with country code (e.g. 8801309991724)",
       "required": true,
-      "value": "8801309991724"
+      "value": "923474771404"
     },
     "MONGO_URL": {
       "description": "MongoDB URL for persistent storage (recommended for Heroku)",
@@ -58,7 +58,7 @@
     "TIMEZONE": {
       "description": "Your timezone (e.g. Asia/Dhaka, America/New_York)",
       "required": false,
-      "value": "Asia/Dhaka"
+      "value": "Asia/Karachi"
     },
     "REMOVEBG_KEY": {
       "description": "Remove.bg API key for background removal",
