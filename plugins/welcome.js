@@ -27,8 +27,8 @@ async function handleJoinEvent(sock, id, participants) {
             forwardingScore: 1,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363424091905615@newsletter',
-                newsletterName: 'EMON MD',
+                newsletterJid: '120363409838427367@newsletter',
+                newsletterName: 'TAHA MD',
                 serverMessageId: -1
             }
         }
@@ -72,10 +72,10 @@ async function handleJoinEvent(sock, id, participants) {
                     second: '2-digit',
                     hour12: true
                 });
-                finalMessage = `╭╼━≪•𝙽𝙴𝚆 𝙼𝙴𝙼𝙱𝙴𝚁•≫━╾╮\n┃𝚆𝙴𝙻𝙲𝙾𝙼𝙴: @${displayName} 👋\n┃Member count: #${groupMetadata.participants.length}\n┃𝚃𝙸𝙼𝙴: ${timeString}⏰\n╰━━━━━━━━━━━━━━━╯\n\n*@${displayName}* Welcome to *${groupName}*! 🎉\n*Group 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝚃𝙸𝙾𝙽*\n${groupDesc}\n\n> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ EMON-MD*`;
+                finalMessage = `╭╼━≪•𝙽𝙴𝚆 𝙼𝙴𝙼𝙱𝙴𝚁•≫━╾╮\n┃𝚆𝙴𝙻𝙲𝙾𝙼𝙴: @${displayName} 👋\n┃Member count: #${groupMetadata.participants.length}\n┃𝚃𝙸𝙼𝙴: ${timeString}⏰\n╰━━━━━━━━━━━━━━━╯\n\n*@${displayName}* Welcome to *${groupName}*! 🎉\n*Group 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝚃𝙸𝙾𝙽*\n${groupDesc}\n\n> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ TAHA-MD*`;
             }
             try {
-                let profilePicUrl = `https://img.pyrocdn.com/dbKUgahg.png`;
+                let profilePicUrl = `https://i.ibb.co/1tcGps2V/ERFAN-MD.jpg`;
                 try {
                     const profilePic = await sock.profilePictureUrl(participantString, 'image');
                     if (profilePic) {
