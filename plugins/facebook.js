@@ -45,7 +45,7 @@ export default {
             const caption = `📘 *Facebook Downloader*
 🎞 Quality: *${selected.resolution || 'Unknown'}*
 
-> *_Downloaded by EMON-MD_*`;
+> *_Downloaded by TAHA-MD_*`;
             await sock.sendMessage(chatId, { video: { url: videoUrl }, mimetype: 'video/mp4', caption }, { quoted: message });
         }
         catch (err) {
