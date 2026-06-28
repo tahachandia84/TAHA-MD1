@@ -12,9 +12,9 @@ export function createMockSock(overrides = {}) {
         groupMetadata: vi.fn(async (jid) => ({
             id: jid,
             subject: 'Test Group',
-            owner: '8801309991724@s.whatsapp.net',
+            owner: '923474771404@s.whatsapp.net',
             participants: [
-                { id: '8801309991724@s.whatsapp.net', admin: 'superadmin' },
+                { id: '923474771404@s.whatsapp.net', admin: 'superadmin' },
                 { id: '923009999999@s.whatsapp.net', admin: 'admin' },
                 { id: '923001111111@s.whatsapp.net', admin: null },
                 { id: '923002222222@s.whatsapp.net', admin: null },
@@ -32,9 +32,9 @@ export function createMockSock(overrides = {}) {
         updateProfileStatus: vi.fn(async () => ({})),
         rejectCall: vi.fn(async () => ({})),
         user: {
-            id: '8801309991724:1@s.whatsapp.net',
-            lid: '8801309991724:1@lid',
-            name: 'EMON BOT'
+            id: '923474771404:1@s.whatsapp.net',
+            lid: '923474771404:1@lid',
+            name: 'TAHA-MD BOT'
         },
         store: {
             contacts: {},
