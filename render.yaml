@@ -1,19 +1,19 @@
 services:
   - type: web
-    name: emon-md
+    name: taha-md
     runtime: docker
     dockerfilePath: lib/Dockerfile
     envVars:
       - key: SESSION_ID
         value: ""
       - key: OWNER_NUMBER
-        value: "8801309991724"
+        value: "923474771404"
       - key: BOT_NAME
         value: "EMON-MD"
       - key: COMMAND_MODE
         value: "public"
       - key: TIMEZONE
-        value: "Asia/Dhaka"
+        value: "Asia/Karachi"
       - key: MONGO_URL
         value: ""
       - key: POSTGRES_URL
